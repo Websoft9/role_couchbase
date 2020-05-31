@@ -1,41 +1,41 @@
 Ansible Role: template
 =========
 
-本 Role 在是一个模块化role的模板格式，用于规范化模块化role的创作。接来下的内容是模块化role的readme格式
+This Role used for install NoSQL database system [Couchbash](https://www.couchbase.com/)
 
 ## Requirements
 
-运行本 Role，请确认符合如下的必要条件：
+Make sure these requirements need before the installation
 
 | **Items**      | **Details** |
 | ------------------| ------------------|
 | Operating system | CentOS7.x Ubuntu18.04 AmazonLinux|
-| Python 版本 | Python2  |
-| Python 组件 |    |
+| Python version | Python2  |
+| Python Components |    |
 | Runtime |  |
 
 
 ## Related roles
 
-本 Role 在语法上不依赖其他 role 的变量，但程序运行时需要确保已经运行: common。以下为例：
+This Role does not depend on other role variables in syntax, but it depend on other role before
 
 ```
   roles:
     - {role: role_common, tags: "role_common"}
-    - {role: role_cloud, tags: "role_cloud"}
-    - {role: role_template, tags: "role_template"}
+    - {role: role_template, tags: "role_couchbase"}
 ```
 
 
 ## Variables
 
-本 Role 主要变量以及使用方法如下：
+The main variables of this Role and how to use them are as follows:
 
-| **Items**      | **Details** | **Format**  | **是否初始化** |
+| **Items**      | **Details** | **Format**  | **Need to assignment** |
 | ------------------| ------------------|-----|-----|
-| template_applications | True, False | 布尔 | 否 |
+| template_applications | True, False | Boolean | No |
 
-注意： 
+notes: 
+
 1. ×××××××
 2. ×××××××
 
