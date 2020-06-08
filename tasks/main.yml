@@ -7,9 +7,10 @@
 # set soft link
 - name: set soft link
   shell: |
-    ln -sb /opt/couchbase  /data/wwwroot/couchbase
-    ln -sb /opt/couchbase/var/lib/couchbase/config /data/config/couchbase
-    ln -sb /opt/couchbase/var/lib/couchbase/logs /data/logs/couchbase
+    ln -sf /opt/couchbase  /data/wwwroot
+    ln -sf /opt/couchbase/var/lib/couchbase/config /data/config
+    ln -sf /opt/couchbase/var/lib/couchbase/logs /data/logs
+    
 # display version and service state of components
 - name: Get Couchbase version
   shell: sudo sh -c 'echo "Couchbase version: $(cat /opt/couchbase/VERSION.txt)" 1>> /data/logs/install_version.txt'
