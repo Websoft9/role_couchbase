@@ -2,7 +2,7 @@
 
 ## To do
 
-1. More 
+1. AmazonLinux
 
 ## Logs
 
