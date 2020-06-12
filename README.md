@@ -9,7 +9,7 @@ Make sure these requirements need before the installation
 
 | **Items**      | **Details** |
 | ------------------| ------------------|
-| Operating system | CentOS7.x Ubuntu18.04 AmazonLinux|
+| Operating system | CentOS7.x Ubuntu18.04|
 | Python version | Python2  |
 | Python Components |    |
 | Runtime |  |
