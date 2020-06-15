@@ -3,6 +3,7 @@
 ## To do
 
 1. AmazonLinux
+2. Open source Edition/ Enterprise Edition
 
 ## Logs
 
