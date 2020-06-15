@@ -57,4 +57,9 @@ notes:
 
 ## FAQ
 
-1. 
+1. What versions does Couchbase include?
+Couchbase Server is available in several editions: enterprise, community, and open source.
+
+2. Is community edition free?
+Free, but sell, license, sublicense, distribute, offer or provide the Community Software on a standalone basis  
+refer to [COUCHBASE, INC. COMMUNITY EDITION LICENSE AGREEMENT](https://www.couchbase.com/community-license-agreement)
