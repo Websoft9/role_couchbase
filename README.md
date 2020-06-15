@@ -1,7 +1,7 @@
 Ansible Role: Couchbash
 =========
 
-This Role used for install NoSQL database system [Couchbase Server](https://www.couchbase.com/)
+This role is used for install NoSQL database system [Couchbase Server](https://www.couchbase.com/)
 
 ## Requirements
 
